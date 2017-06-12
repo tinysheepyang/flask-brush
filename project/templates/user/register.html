@@ -1,0 +1,64 @@
+{% extends "_base.html" %}
+
+{% block content %}
+    <div class="lg-main" style="background-image:url(http://s.emao.net/car/common/pc/login/images/lg-bg.jpg);">
+        <div class="login-register-container">
+            <div class="login-register-model">
+                <div class="login-register-form">
+                    <div class="register-form active">
+                        <h1>请注册</h1>
+                        <form class="user-infor" role="form" method="post" action="">
+                            {{ form.csrf_token }}
+                            <p>
+                                <div class="user-list">
+{#                          {{ form.email(placeholder="email") }}#}
+                                    <input type="text" class="inp1" id="email" name="email" placeholder="请输入email">
+                                    <span class="error">
+                                      {% if form.email.errors %}
+                                        {% for error in form.email.errors %}
+                                          {{ error }}
+                                        {% endfor %}
+                                      {% endif %}
+                                    </span>
+                                </div>
+                            </p>
+                            <p>
+{#                          {{ form.password(placeholder="password") }}#}
+                                <div class="user-list">
+                                    <input type="password" id="password" name="password" placeholder="密码" maxlength="14" class="inp1 pass">
+                                    <span class="error">
+                                      {% if form.password.errors %}
+                                        {% for error in form.password.errors %}
+                                          {{ error }}
+                                        {% endfor %}
+                                      {% endif %}
+                                    </span>
+                                </div>
+                            </p>
+                            <p>
+                                <div class="user-list">
+{#                          {{ form.confirm(placeholder="confirm") }}#}
+                                    <input type="password" id="confirm" name="confirm" placeholder="请确认密码" maxlength="14" class="inp1 yz">
+                                    <span class="error">
+                                      {% if form.confirm.errors %}
+                                        {% for error in form.confirm.errors %}
+                                          {{ error }}
+                                        {% endfor %}
+                                      {% endif %}
+                                    </span>
+                                </div>
+                            </p>
+                            <p>
+                                <p class="login-btn reg-btn">
+                                    <input type="submit" class="login-button active" id="regButton" value="注册" rel="0">
+                                </p>
+                            </p>
+
+                            <p>Already have an account? <a href="/login">Sign in</a>.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

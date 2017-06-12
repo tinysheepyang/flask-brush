@@ -1,0 +1,27 @@
+{% extends "_base.html" %}
+{% block css %}
+
+{% endblock %}
+
+{% block content %}
+
+<form method="post" class="search" action="/brush/insert">
+    <div class="row">
+        <div class=".col-md-6" style="padding-left: 15px;font-family: '微软雅黑'">
+            <label>请输入搜索词和对应的url</label>
+        </div>
+
+        <div class="col-sm-6" style="padding-left: 15px;font-family: '微软雅黑'">
+            <input id="keyword" name="keyword" size="20" type="text" value="" class="keyword" placeholder="请输入搜索词" />
+            <input id="url" name="url" size="55" type="text" value="" class="url" placeholder="请输入URL" />
+            <button class="btn btn-primary btn-sm" type="submit" id="insertBtn" name="button" value="insert">新增</button>
+            <button class="btn btn-primary btn-sm" type="submit" id="delBtn" name="button" value="delete">删除</button>
+{#            onclick="return search('confirm')" #}
+        </div>
+    </div>
+</form>
+    <!-- 表格显示 -->
+
+
+{% endblock %}
+

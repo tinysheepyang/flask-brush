@@ -1,0 +1,114 @@
+{#<!DOCTYPE HTML>#}
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+    <meta name="apple-touch-fullscreen" content="YES"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="shortcut icon" href="http://s.emao.net/images/favicon.ico" type="image/x-icon"/>
+    <title> 一猫运维平台登录</title>
+
+    <link href="/static/css/main.css" rel="stylesheet" media="screen">
+    <link href="/static/css/n-header.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="lg-main" style="background-image:url(http://s.emao.net/car/common/pc/login/images/lg-bg.jpg);">
+    <!-- 顶部logo导航 -->
+    <div class="lg-top-nav">
+        <div class="login-top">
+            <div class="login-wrap">
+                <div class="logo"><a href="http://www.emao.com"><img src="/static/logo.png"
+                                                                     alt=""/></a></div>
+                <div class="back"><a href="http://www.emao.com">返回首页</a></div>
+                <div class="register"><a href="/register">注册</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="login-register-container">
+        <div class="login-register-model">
+            <div class="login-register-form">
+                <div class="login-form active">
+                    <form class="user-info" role="form" method="post" action="">
+                        <h1 style="text-align: center; color: black">欢迎登录一猫运维平台</h1>
+                        {{ form.csrf_token }}
+                        <p>
+                        <div class="user-list">
+                            <input type="text" id="email" name="email" placeholder="email" class="inp1" maxlength="36">
+                            {#                {{ form.email(placeholder="email") }}#}
+                                <span class="error">
+                                        {% if form.email.errors %}
+                                            {% for error in form.email.errors %}
+                                                {{ error }}
+                                            {% endfor %}
+                                        {% endif %}
+                                </span>
+                        </div>
+                        </p>
+                        <!-- messages -->
+                        {% with messages = get_flashed_messages(with_categories=true) %}
+                            {% if messages %}
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        {% for category, message in messages %}
+                                            <div class="alert alert-{{ category }}">
+                                                <a class="close" title="Close" href="#" data-dismiss="alert">&times;</a>
+                                                {{ message }}
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endwith %}
+
+                        <!-- errors -->
+                        {% if error %}
+                            <p class="error"><strong>Error:</strong> {{ error }}</p>
+                        {% endif %}
+                        <p>
+                            {#            {{ form.password(placeholder="password") }}#}
+                        <div class="user-list">
+                            <input id="password" name="password" placeholder="密码" type="password" value="" class="inp1">
+                                    <span class="error">
+                                        {% if form.password.errors %}
+                                            {% for error in form.password.errors %}
+                                                {{ error }}
+                                            {% endfor %}
+                                        {% endif %}
+                                    </span>
+                        </div>
+                        </p>
+                        <p class="login-btn">
+                            {#                            <button class="login-button" type="submit">登录</button>#}
+                            <input type="submit" id="loginButton" value="登录" class="login-button active">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 背景图容器 -->
+</div>
+
+
+<div class="n-width100 n-back1 n-record">
+    <span>版权所有：北京一猫汽车科技有限公司 </span>
+    <span class="n-record-site">电话：010-62691688 　© 2016 www.emao.com </span>
+    <a href="http://www.miitbeian.gov.cn" target="_blank">京ICP证150082号 </a>
+    <a class="n-record-num" target="_blank"
+       href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020186">公网安备
+        11010802020186号<i></i></a>
+</div>
+
+
+</body>
+</html>
+
+

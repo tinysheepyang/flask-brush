@@ -1,0 +1,2550 @@
+body {
+    background: #f5f5f5
+}
+
+.main {
+    position: relative;
+    margin: 10px auto 0;
+    width: 990px
+}
+
+.car_information {
+    width: 990px;
+    margin: 19px auto 0;
+    clear: both
+}
+
+.car_information h3 {
+    margin: 5px 0 3px;
+    height: 28px
+}
+
+.car_information h3 span.tit {
+    float: left
+}
+
+.car_information h3 span.tit a {
+    display: inline-block;
+    width: 90px;
+    height: 21px;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    color: #4c4c4c
+}
+
+.car_information h3 em {
+    float: left;
+    display: inline-block;
+    margin: 10px 0 8px;
+    width: 858px;
+    height: 1px;
+    line-height: 1px;
+    background: #dbdbdb
+}
+
+.car_information h3 a.more {
+    font-size: 14px;
+    color: #4c4c4c;
+    margin-bottom: 5px;
+    float: right
+}
+
+.car_information h3 span a:hover {
+    color: #f2a60c
+}
+
+.car_information .buycar-navs {
+    width: 964px;
+    height: 40px;
+    clear: both;
+    line-height: 40px;
+    margin-top: 10px;
+    padding-left: 26px;
+    background: rgba(255, 255, 255, .9);
+    _background: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff')
+}
+
+.car_information .buycar-navs li {
+    float: left;
+    text-align: center;
+    font-weight: 700
+}
+
+.car_information .buycar-navs li a {
+    font-size: 16px;
+    display: block;
+    width: 90px;
+    height: 40px;
+    color: #4c4c4c
+}
+
+.car_information .buycar-navs li a:hover {
+    background: #fbbf3d;
+    color: #fff
+}
+
+.car_information .buycar-navs li a.active {
+    width: 90px;
+    height: 40px;
+    background: #fbbf3d;
+    text-align: center;
+    line-height: 40px
+}
+
+.car_information .buycar-navs li a.active {
+    color: #fff
+}
+
+.information-wrap {
+    min-height: 1082px
+}
+
+.information-wrap .information-box {
+    display: none;
+    width: 990px
+}
+
+.information-box .information-info .boxs {
+    width: 323px;
+    height: 334px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    _margin-right: 7px;
+    position: relative;
+    background: rgba(255, 255, 255, .9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff');
+    _ background: #fff
+}
+
+.information-box .information-info .boxs .img {
+    width: 323px;
+    height: 186px;
+    position: relative;
+    overflow: hidden
+}
+
+.information-box .information-info .boxs .img img {
+    display: block;
+    width: 323px;
+    height: 186px
+}
+
+.information-box .information-info .boxs .img .bt {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7F000000', endcolorstr='#7F000000')
+}
+
+.information-box .information-info .boxs .img .bt a {
+    display: block;
+    width: 263px;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 30px
+}
+
+.information-box .information-info .boxs .img .bt a:hover {
+    color: #fab92c
+}
+
+.information-box .information-info .boxs .text {
+    width: 266px;
+    height: 42px;
+    overflow: hidden;
+    padding: 10px 30px 0;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #4c4c4c;
+    word-break: break-all
+}
+
+.information-box .information-info .boxs .label {
+    padding-left: 30px;
+    margin-top: 12px;
+    width: 290px;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.information-box .information-info .boxs .label a {
+    margin-right: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    color: gray
+}
+
+.information-box .information-info .boxs .label a img {
+    margin-top: 4px
+}
+
+.n-tags {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 16px;
+    height: 16px;
+    background: url(http://www.emao.com/static/home/widget/buycar-news/img/bq_6e92c89.png) no-repeat
+}
+
+.information-box .information-info .boxs .label a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fab92c
+}
+
+.information-box .information-info .boxs .list-date {
+    font-size: 14px;
+    color: gray;
+    position: absolute;
+    bottom: 16px;
+    right: 26px;
+    font-weight: 400
+}
+
+.information-box .information-info .boxs .list-date span {
+    margin-right: 10px
+}
+
+.load-more {
+    display: block;
+    clear: both;
+    width: 990px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, .9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff');
+    _background: #fff
+}
+
+.load-more:hover {
+    background: #fbbf3d;
+    color: #fff
+}
+
+.information-box .information-info .boxs {
+    transition: All .3s ease-in-out;
+    -webkit-transition: All .3s ease-in-out;
+    -moz-transition: All .3s ease-in-out;
+    -o-transition: All .3s ease-in-out
+}
+
+.information-box .information-info .boxs:hover {
+    transform: translate(0, -3px);
+    -webkit-transform: translate(0, -3px);
+    -moz-transform: translate(0, -3px);
+    -o-transform: translate(0, -3px);
+    -ms-transform: translate(0, -3px);
+    box-shadow: 0 5px 12px 6px #e8e8e8
+}
+
+.information-wrap .information-box.tabShow {
+    display: block
+}
+
+.information-box .information-info {
+    margin-right: -10px
+}
+
+.newcar-box {
+    width: 990px;
+    margin: 18px auto 0
+}
+
+.newcar-box h3 {
+    margin-bottom: 3px;
+    height: 25px
+}
+
+.newcar-box span.tit a {
+    display: inline-block;
+    width: 90px;
+    height: 21px;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    color: #4c4c4c
+}
+
+.newcar-box h3 em {
+    float: left;
+    display: inline-block;
+    width: 858px;
+    height: 1px;
+    background: #fbbf3d;
+    margin: 8px 0 10px
+}
+
+.newcar-box h3 a.more {
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-top: -1px;
+    font-size: 14px;
+    float: right
+}
+
+.newcar-box h3 a:hover {
+    color: #f2a60c
+}
+
+.newcar-box .carnew-1 {
+    width: 323px;
+    height: 436px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    _margin-right: 7px
+}
+
+.newcar-box > .carnew-1 + .carnew-1 + .carnew-1 {
+    margin-right: 0
+}
+
+.newcar-box > .carnew-1 + .carnew-1 + .carnew-1 + .carnew-1 {
+    margin-right: 10px
+}
+
+.newcar-box > .carnew-1 + .carnew-1 + .carnew-1 + .carnew-1 + .carnew-1 + .carnew-1 {
+    margin-right: 0
+}
+
+.newcar-box .carnew-1:nth-child(3n+1) {
+    margin-right: 0
+}
+
+.carnew-1 {
+    background: rgba(255, 255, 255, .9);
+    _background: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff')
+}
+
+.newcar-box > .newcar-revision + .newcar-revision + .newcar-revision {
+    margin-right: 0
+}
+
+.carnew-1 h4 {
+    height: 36px
+}
+
+.carnew-1 h4.one {
+    border-bottom: 4px solid #3ee0f5
+}
+
+.carnew-1 h4 em {
+    float: left
+}
+
+.carnew-1 h4 em a {
+    font-size: 14px;
+    color: #4e4e4e;
+    line-height: 36px;
+    margin-left: 20px
+}
+
+.carnew-1 h4 em a:hover {
+    color: #f2a60c
+}
+
+.carnew-1 h4 em i {
+    margin: 0 10px
+}
+
+.carnew-1 h4 .more {
+    float: right;
+    color: #4e4e4e;
+    line-height: 36px;
+    margin-right: 20px;
+    font-size: 14px
+}
+
+.carnew-1 h4 .more:hover {
+    color: #fab90c
+}
+
+.carnew-1 .pic {
+    width: 323px;
+    height: 186px;
+    position: relative
+}
+
+.carnew-1 .pic img {
+    width: 323px;
+    height: 186px;
+    display: block
+}
+
+.carnew-1 .pic p {
+    width: 263px;
+    _width: 230px;
+    height: 30px;
+    padding-left: 30px;
+    _padding-left: 30px;
+    padding-right: 30px;
+    _padding-right: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    _background: #000;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7F000000', endcolorstr='#7F000000');
+    _ filter: Alpha(opacity = 40)
+}
+
+.carnew-1 .pic p a {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    width: 275px;
+    _width: 262px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.carnew-1 .pic p a:hover {
+    color: #fab92c
+}
+
+.carnew-1 ul {
+    height: 199px;
+    overflow: hidden;
+    padding-left: 32px;
+    padding-top: 11px;
+    background: rgba(255, 255, 255, .8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff')
+}
+
+.carnew-1 ul li {
+    height: 31px;
+    line-height: 31px
+}
+
+.carnew-1 ul li a {
+    font-size: 14px;
+    color: #4c4d4c;
+    width: 263px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.carnew-1 ul li a:hover {
+    text-decoration: underline;
+    color: #fab92c
+}
+
+.carnew-1 ul li a span {
+    float: left;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #4d4d4d;
+    border-radius: 100%;
+    margin-top: 14px;
+    margin-right: 8px
+}
+
+.newcar-revision {
+    width: 295px;
+    height: 297px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    _margin-right: 7px;
+    background: rgba(255, 255, 255, .9);
+    _background: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff');
+    padding: 15px 14px 12px;
+    float: left
+}
+
+.newcar-revision-top {
+    position: relative
+}
+
+.newcar-revision-top p {
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    _background: #000;
+    text-align: center;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7F000000', endcolorstr='#7F000000');
+    _ filter: Alpha(opacity = 40);
+    text-align: center;
+    font-size: 16px
+}
+
+.newcar-revision-top p a {
+    display: block;
+    width: 275px;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 20px
+}
+
+.newcar-revision-top p a:hover {
+    color: #f2a60c
+}
+
+.newcar-revision-top a img {
+    display: block;
+    width: 295px;
+    height: 166px
+}
+
+.newcar-revision-bot {
+    margin-top: 20px
+}
+
+.newcar-revision-bot em {
+    display: block;
+    width: 25px;
+    height: 76px;
+    padding-top: 28px;
+    font-size: 16px;
+    float: left;
+    padding-left: 5px;
+    border-right: 2px solid #f85454;
+    font-weight: 700
+}
+
+.newcar-revision-bot em a {
+    display: block;
+    width: 10px
+}
+
+.newcar-revision-bot em:hover a {
+    color: #f2a60c
+}
+
+.newcar-revision-bot ul {
+    float: left;
+    margin-left: 20px;
+    margin-top: -2px
+}
+
+.newcar-revision-bot ul li {
+    height: 27px;
+    line-height: 27px
+}
+
+.newcar-revision-bot ul li a, .newcar-revision-list .car li a {
+    font-size: 14px;
+    color: #4c4d4c;
+    width: 220px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.newcar-revision-bot ul li a:hover, .newcar-revision-list .car li a:hover {
+    text-decoration: underline;
+    color: #fab92c
+}
+
+.newcar-revision-bot ul li a span, .newcar-revision-list .car li a span {
+    float: left;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #4d4d4d;
+    border-radius: 100%;
+    margin-top: 11px;
+    margin-right: 8px
+}
+
+.newcar-revision-list {
+    height: 134px;
+    overflow: hidden;
+    margin-top: 7px
+}
+
+.newcar-revision-list:nth-child(2) {
+    margin-top: 15px
+}
+
+.newcar-revision:nth-child(3n+1) {
+    margin-right: 0
+}
+
+.newcar-revision-list em {
+    display: block;
+    width: 25px;
+    height: 150px;
+    font-size: 16px;
+    float: left;
+    padding-left: 5px;
+    font-weight: 700
+}
+
+.newcar-revision-list em a {
+    display: block;
+    width: 10px
+}
+
+.newcar-revision-list em:hover a {
+    color: #f2a60c
+}
+
+.newcar-revision-list .car {
+    width: 230px;
+    float: left;
+    margin-left: 20px
+}
+
+.newcar-revision-list .car li {
+    height: 27px;
+    line-height: 27px
+}
+
+.newcar-revision-list .car li.more {
+    text-align: right
+}
+
+.newcar-revision-list .car .lis-tit {
+    margin-bottom: 4px
+}
+
+.newcar-revision-list .car .lis-tit a {
+    display: block;
+    width: 220px;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.newcar-revision-list .car .lis-tit a:hover {
+    text-decoration: underline;
+    color: #fab92c
+}
+
+.newcar-revision-list .car .lis-tit span {
+    display: none
+}
+
+.top1-col {
+    border-bottom: 4px solid #4ae0f3
+}
+
+.top2-col {
+    border-bottom: 4px solid #fbbf3d
+}
+
+.top3-col {
+    border-bottom: 4px solid #a988e4
+}
+
+.yellow {
+    border-right: 2px solid #fab92c
+}
+
+.yellow a {
+    margin-top: 47px
+}
+
+.green {
+    border-right: 2px solid #8bc34a
+}
+
+.green a {
+    margin-top: 47px
+}
+
+.violet {
+    border-right: 2px solid #a988e4
+}
+
+.violet a {
+    margin-top: 36px
+}
+
+.blue {
+    border-right: 2px solid #26c6da
+}
+
+.blue a {
+    margin-top: 25px
+}
+
+.choose-car-wrap {
+    position: relative;
+    padding-top: 8px;
+    margin-top: 10px;
+    height: 32px;
+    border-bottom: 2px solid #fab92c;
+    background: #fff;
+    font-size: 12px;
+    z-index: 99
+}
+
+.choose-car-wrap .choose-car {
+    float: left;
+    margin: 0 13px 0 10px;
+    text-align: center
+}
+
+.choose-car-wrap .choose-car input {
+    float: left;
+    display: block;
+    width: 80px;
+    height: 24px;
+    background: #fab92c;
+    color: #fff;
+    cursor: pointer
+}
+
+.choose-car-wrap .choose-car input:hover {
+    background: #df8a04
+}
+
+.choose-car-wrap .choose-btn {
+    padding-left: 13px;
+    float: left;
+    overflow: hidden
+}
+
+.choose-car-wrap .choose-btn a {
+    float: left;
+    display: block;
+    margin-right: 7px;
+    width: 78px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border: 1px solid #e6e6e6
+}
+
+.choose-car-wrap .choose-btn a:hover {
+    color: #fff;
+    border: 1px solid #fab92c;
+    background: #fab92c
+}
+
+.choose-wrap {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    padding-left: 10px;
+    width: 124px;
+    height: 24px;
+    line-height: 24px;
+    border: 0;
+    font-size: 12px;
+    background: #e9e9e9;
+    text-align: left;
+    cursor: pointer
+}
+
+.choose-wrap span {
+    display: block;
+    width: 100px;
+    height: 24px;
+    overflow: hidden
+}
+
+.choose-wrap .arrow {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: dashed;
+    border-width: 5px;
+    border-bottom-color: #333;
+    border-bottom-style: solid
+}
+
+.choose-wrap ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 24px;
+    width: 132px;
+    max-height: 345px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    background: rgba(255, 255, 255, .96);
+    z-index: 9
+}
+
+.choose-wrap ul li {
+    height: 24px;
+    border-bottom: 1px solid #e6e6e6;
+    overflow: hidden
+}
+
+.choose-wrap ul li a {
+    display: block;
+    padding: 0 10px;
+    height: 24px;
+    overflow: hidden
+}
+
+.choose-wrap ul li a i {
+    margin-right: 3px
+}
+
+.choose-wrap ul li a:hover {
+    background: #fab92c;
+    color: #fff
+}
+
+.choose-wrap ul li:last-child {
+    border-bottom: 0
+}
+
+.choose-wrap.disabled {
+    color: #b2b2b2;
+    cursor: default
+}
+
+.select-box {
+    float: left;
+    margin-left: 5px;
+    padding-left: 12px
+}
+
+.select-box .select-wrap {
+    position: relative;
+    float: right;
+    border: 1px solid #e6e6e6
+}
+
+.select-box .select-wrap .s-inp {
+    float: left;
+    padding: 0 10px;
+    width: 210px;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #999
+}
+
+.select-box .select-wrap .btn {
+    float: left;
+    width: 64px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    background: #fab92c;
+    color: #fff;
+    cursor: pointer
+}
+
+.select-box .select-wrap .btn:hover {
+    background: #df8a04
+}
+
+.select-box .select-wrap .select-list {
+    display: none;
+    position: absolute;
+    top: 22px;
+    left: -1px;
+    width: 230px;
+    border: 1px solid #e7e7e7;
+    overflow: hidden;
+    background-color: #fff;
+    background: rgba(255, 255, 255, .96);
+    z-index: 9999;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff')
+}
+
+.select-box .select-wrap .select-list li a {
+    padding: 0 10px;
+    display: block;
+    color: #999;
+    width: 220px;
+    height: 26px;
+    line-height: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.select-box .select-wrap .select-list li a:hover {
+    background: #fab92c;
+    color: #fff
+}
+
+.line {
+    background: url(http://www.emao.com/static/home/widget/choosecar/img/line_d72499f.png) center left no-repeat
+}
+
+#chexiName {
+    z-index: 1
+}
+
+.find-car {
+    float: left;
+    padding: 0 10px;
+    width: 160px;
+    height: 350px;
+    background: #333;
+    font-size: 12px
+}
+
+.find-car h2 {
+    color: #fab92c;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #0a0a0a
+}
+
+.find-car h2 a {
+    color: #fff
+}
+
+.find-car-conBorder {
+    border-bottom: 1px solid #0a0a0a
+}
+
+.find-car-con {
+    height: 154px;
+    border-top: 1px solid #4b4b4b
+}
+
+.find-car-con .tt {
+    height: 40px;
+    line-height: 43px;
+    font-size: 14px;
+    color: #999;
+    position: relative;
+    overflow: hidden;
+    text-align: right
+}
+
+.find-car-con .tt span {
+    float: left
+}
+
+.find-car-con .tt .more {
+    padding-bottom: 2px;
+    font-size: 12px;
+    color: #fff
+}
+
+.find-car-con .tt .more:hover {
+    border-bottom: 1px solid #fab92c;
+    color: #fab92c
+}
+
+.find-car-con .brand-btn {
+    cursor: pointer
+}
+
+.find-car-con .price {
+    overflow: hidden;
+    width: 174px
+}
+
+.find-car-con .price li {
+    float: left;
+    margin-left: 10px;
+    width: 77px;
+    line-height: 26px
+}
+
+.find-car-con .price li a {
+    color: #fff;
+    padding-bottom: 2px
+}
+
+.find-car-con .price li a:hover, .find-car-con .price li a.checked {
+    color: #fab92c;
+    border-bottom: 1px solid #fab92c
+}
+
+.find-car-con .price li a.disabled {
+    color: #ccc;
+    text-decoration: none;
+    cursor: default
+}
+
+.find-car-con .type {
+    margin-top: 8px;
+    overflow: hidden;
+    width: 180px
+}
+
+.find-car-con .type li {
+    float: left;
+    margin-right: 22px
+}
+
+.find-car-con .type li a {
+    display: block;
+    width: 38px;
+    color: #fff;
+    text-align: center
+}
+
+.find-car-con .type li a i {
+    display: block;
+    width: 38px;
+    height: 15px
+}
+
+.find-car-con .type li a i.lx {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/lx-w_c3ef9ba.png) center no-repeat
+}
+
+.find-car-con .type li a i.sx {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/sx-w_a045e2b.png) center no-repeat
+}
+
+.find-car-con .type li a i.suv {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/suv-w_0bf9a89.png) center no-repeat
+}
+
+.find-car-con .type li a i.mpv {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/mpv-w_2da258e.png) center no-repeat
+}
+
+.find-car-con .type li a i.wk {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/wk-w_7737dff.png) center no-repeat
+}
+
+.find-car-con .type li a i.xny {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/xny-w_a4eb3da.png) center no-repeat
+}
+
+.find-car-con .type li a p {
+    margin: 8px 0 16px
+}
+
+.find-car-con .type li a p span {
+    padding-bottom: 2px
+}
+
+.find-car-con .type li a:hover i.lx, .find-car-con .type li a.checked i.lx {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/lx-h_25e2499.png) center no-repeat
+}
+
+.find-car-con .type li a:hover i.sx, .find-car-con .type li a.checked i.sx {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/sx-h_4655187.png) center no-repeat
+}
+
+.find-car-con .type li a:hover i.suv, .find-car-con .type li a.checked i.suv {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/suv-h_5b0c751.png) center no-repeat
+}
+
+.find-car-con .type li a:hover i.mpv, .find-car-con .type li a.checked i.mpv {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/mpv-h_53e3a0e.png) center no-repeat
+}
+
+.find-car-con .type li a:hover i.wk, .find-car-con .type li a.checked i.wk {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/wk-h_ebe76f6.png) center no-repeat
+}
+
+.find-car-con .type li a:hover i.xny, .find-car-con .type li a.checked i.xny {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/xny-h_d6d0726.png) center no-repeat
+}
+
+.find-car-con .type li a:hover span, .find-car-con .type li a.checked span {
+    border-bottom: 1px solid #fab92c;
+    color: #fab92c
+}
+
+.find-car-con .type li a.disabled {
+    color: #ccc;
+    text-decoration: none;
+    cursor: default
+}
+
+.find-car-con .type li a.disabled i.lx {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/lx-g_21e823f.png) center no-repeat
+}
+
+.find-car-con .type li a.disabled i.sx {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/sx-g_2a5c498.png) center no-repeat
+}
+
+.find-car-con .type li a.disabled i.suv {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/suv-g_f51a526.png) center no-repeat
+}
+
+.find-car-con .type li a.disabled i.mpv {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/mpv-g_8c8e2a3.png) center no-repeat
+}
+
+.find-car-con .type li a.disabled i.wk {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/wk-g_208e19e.png) center no-repeat
+}
+
+.find-car-con .type li a.disabled i.xny {
+    background: url(http://www.emao.com/static/home/widget/focus/findcar/img/xny-g_8c9b549.png) center no-repeat
+}
+
+.choosecar-btn {
+    margin: 3px auto 0;
+    display: block;
+    width: 90px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #fab92c;
+    color: #fff
+}
+
+.choosecar-btn:hover {
+    background: #df8a04
+}
+
+.focus-area {
+    position: relative;
+    margin-top: 8px;
+    overflow: hidden;
+    z-index: 9
+}
+
+.slider {
+    position: relative;
+    margin-left: 10px;
+    float: left;
+    width: 595px;
+    height: 350px;
+    overflow: hidden
+}
+
+.slider .focus-Img {
+    position: absolute;
+    left: -595px;
+    overflow: hidden;
+    width: 1785px;
+    height: 350px
+}
+
+.slider .focus-Img li {
+    float: left;
+    width: 595px;
+    height: 350px;
+    overflow: hidden
+}
+
+.slider .focus-info {
+    position: relative;
+    float: left;
+    width: 595px;
+    height: 350px;
+    overflow: hidden;
+    background: url(http://www.emao.com/static/home/index/lazy_loading_b8c01e8.gif) no-repeat center
+}
+
+.slider .focus-info a {
+    display: block
+}
+
+.slider .focus-info a:hover p {
+    color: #fab92c
+}
+
+.slider .focus-info img {
+    width: 595px;
+    height: 350px
+}
+
+.slider .focus-info p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#99000000')
+}
+
+.slider .focus-cur {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center
+}
+
+.slider .focus-cur li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    overflow: hidden;
+    background: #868686
+}
+
+.slider .focus-cur li.cur {
+    background: #222425
+}
+
+.slider .prev-btn, .slider .next-btn {
+    position: absolute;
+    top: 140px;
+    display: none;
+    width: 33px;
+    height: 53px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .4);
+    background-repeat: no-repeat;
+    background-position: 9px 15px
+}
+
+.slider .prev-btn {
+    left: 0;
+    background-image: url(http://www.emao.com/static/home/widget/focus/img/prev_c962fba.png);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.slider .prev-btn:hover {
+    background-image: url(http://www.emao.com/static/home/widget/focus/img/prev_hover_eabe4f7.png)
+}
+
+.slider .next-btn {
+    right: 0;
+    background-image: url(http://www.emao.com/static/home/widget/focus/img/next_74edc60.png);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.slider .next-btn:hover {
+    background-image: url(http://www.emao.com/static/home/widget/focus/img/next_hover_055d622.png)
+}
+
+.slider:hover span {
+    display: block
+}
+
+.f-entry {
+    float: right;
+    width: 196px;
+    height: 350px;
+    overflow: hidden
+}
+
+.f-entry li {
+    overflow: hidden;
+    background: url(http://www.emao.com/static/home/index/lazy_loading_b8c01e8.gif) no-repeat center center
+}
+
+.f-entry li a {
+    display: block
+}
+
+.f-entry li a img {
+    width: 196px
+}
+
+.f-entry li.up {
+    height: 146px
+}
+
+.f-entry li.up img {
+    height: 146px
+}
+
+.f-entry li.down {
+    margin-top: 10px;
+    height: 92px
+}
+
+.f-entry li.down img {
+    height: 92px
+}
+
+.hotarea {
+    margin-top: 10px;
+    overflow: hidden
+}
+
+.hotarea .hotarea-lt, .hotarea .hotarea-rt {
+    background: #fff
+}
+
+.hotarea .hotarea-lt {
+    padding-top: 18px;
+    float: left;
+    width: 647px;
+    height: 152px
+}
+
+.hotarea .hotarea-rt {
+    float: right;
+    width: 334px;
+    height: 170px
+}
+
+.hotarea .recommend, .hotarea .activity, .hotarea .hot-model {
+    float: left;
+    overflow: hidden
+}
+
+.hotarea .recommend dt, .hotarea .activity dt, .hotarea .hot-model dt {
+    float: left;
+    margin-top: 4px;
+    width: 36px;
+    height: 126px;
+    text-align: center;
+    overflow: hidden
+}
+
+.hotarea .recommend dt span, .hotarea .activity dt span, .hotarea .hot-model dt span {
+    padding-top: 37px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 16px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    word-wrap: break-word;
+    overflow: hidden;
+    word-break: break-all
+}
+
+.hotarea .recommend dd, .hotarea .activity dd, .hotarea .hot-model dd {
+    float: left;
+    padding-left: 17px;
+    width: 263px;
+    overflow: hidden
+}
+
+.hotarea .recommend dd h2, .hotarea .activity dd h2, .hotarea .hot-model dd h2 {
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.hotarea .recommend dd h2 a:hover, .hotarea .activity dd h2 a:hover, .hotarea .hot-model dd h2 a:hover {
+    color: #fab92c;
+    text-decoration: underline
+}
+
+.hotarea .recommend dt {
+    border-right: 2px solid #fb524f
+}
+
+.hotarea .activity dt {
+    border-right: 2px solid #4ae0f3
+}
+
+.hotarea .hot-model dt {
+    margin-top: 22px;
+    width: 42px;
+    border-right: 2px solid #fcc43d
+}
+
+.hotarea .hot-model dt span {
+    padding-top: 14px
+}
+
+.hotarea .hot-model dd {
+    position: relative;
+    padding: 0;
+    width: 289px;
+    height: 170px;
+    overflow: hidden
+}
+
+.hot-info {
+    margin-top: 3px
+}
+
+.hot-info li {
+    width: 263px;
+    height: 28px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.hot-info li a {
+    line-height: 28px
+}
+
+.hot-info li a:hover {
+    color: #fab92c;
+    text-decoration: underline
+}
+
+.hot-info li a:hover i {
+    background: #fab92c
+}
+
+.hot-info li i {
+    position: relative;
+    top: -3px;
+    margin-right: 5px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background: gray
+}
+
+.hot-focus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+
+.hot-focus li {
+    float: left;
+    width: 289px;
+    height: 170px;
+    overflow: hidden
+}
+
+.hot-focus li img {
+    width: 289px;
+    height: 170px
+}
+
+.hot-focus-cur {
+    position: absolute;
+    top: 16px;
+    right: 25px
+}
+
+.hot-focus-cur li {
+    float: left;
+    margin-left: 10px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #ccc;
+    background: #868686;
+    border-radius: 100%;
+    cursor: pointer
+}
+
+.hot-focus-cur li.cur {
+    background: #fab92c
+}
+
+.links {
+    padding: 8px 10px 15px 0
+}
+
+.links .wrap {
+    width: 990px
+}
+
+.links .wrap span {
+    float: left;
+    margin-right: 10px;
+    color: #fab92c;
+    font-size: 12px
+}
+
+.links .wrap .links-box {
+    width: 898px;
+    float: left
+}
+
+.links .wrap .links-box a {
+    color: #4c4d4c;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 26px
+}
+
+.links .wrap .links-box a:hover {
+    color: #fab92c
+}
+
+.links .wrap .links-box em {
+    padding: 0 10px
+}
+
+.local-car {
+    width: 990px;
+    margin-top: 18px
+}
+
+.local-car h3 {
+    height: 28px
+}
+
+.local-car h3 span.tit {
+    float: left
+}
+
+.local-car h3 span.tit a {
+    display: inline-block;
+    width: 90px;
+    height: 21px;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    color: #4c4c4c
+}
+
+.local-car h3 em {
+    float: left;
+    display: inline-block;
+    margin: 10px 0 8px;
+    line-height: 1px;
+    width: 858px;
+    height: 1px;
+    background: #dbdbdb
+}
+
+.local-car h3 a.more {
+    font-size: 14px;
+    color: #4c4c4c;
+    margin-bottom: 5px;
+    float: right
+}
+
+.local-car h3 span a:hover {
+    color: #f2a60c
+}
+
+.localcar-wrap {
+    margin-top: 10px
+}
+
+.pic-ad {
+    margin-top: 10px;
+    clear: both
+}
+
+.pic-ad img {
+    display: block;
+    width: 490px;
+    height: 140px
+}
+
+.localinfo-count .localinfo-left {
+    width: 495px;
+    float: left
+}
+
+.localinfo-count .localinfo-right {
+    width: 490px;
+    float: right
+}
+
+.sale-brand {
+    float: left;
+    width: 240px;
+    height: 346px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, .9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff');
+    _background: #fff
+}
+
+.sale-brand ul {
+    padding-left: 30px;
+    width: 210px;
+    height: 90px;
+    border-top: 1px solid #e5e5e5;
+    _padding-top: 15px;
+    _height: 64px
+}
+
+.border-color {
+    width: 236px;
+    height: 255px
+}
+
+.sale-brand:hover ul {
+    background: #fcba02;
+    transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out
+}
+
+.sale-brand:hover ul li {
+    color: #fff
+}
+
+.sale-brand a {
+    display: block;
+    width: 240px;
+    height: 346px
+}
+
+.localinfo-count .localinfo-left .sale-brand {
+    _height: 356px
+}
+
+.localinfo-count .localinfo-left .sale-brand:nth-child(1) {
+    margin-right: 10px
+}
+
+.localinfo-count .localinfo-left .sale-brand .series {
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 30px
+}
+
+.localinfo-count .localinfo-left .local-market {
+    margin-top: 10px;
+    height: 300px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff')
+}
+
+.localinfo-count .localinfo-right .sale-brand:nth-child(1) {
+    margin-right: 10px
+}
+
+.localinfo-count .localinfo-right .local-market {
+    margin-bottom: 10px
+}
+
+.brand-right1 .sale-brand .series {
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 30px
+}
+
+.sale-brand h4 {
+    font-size: 16px;
+    color: #4d4d4c;
+    margin-left: 30px;
+    height: 30px;
+    line-height: 33px;
+    font-weight: 700;
+    width: 185px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.sale-brand h4 span {
+    font-size: 14px;
+    color: #4d4d4c;
+    margin-left: 10px
+}
+
+.sale-brand p {
+    margin-left: 30px;
+    height: 31px;
+    line-height: 19px
+}
+
+.sale-brand p span {
+    margin-right: 20px;
+    color: #7f7f7f
+}
+
+.sale-brand ul li {
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.sale-brand ul li span {
+    text-decoration: line-through
+}
+
+.sale-brand ul li em {
+    font-size: 20px;
+    color: #f33
+}
+
+.mr {
+    margin-right: 0
+}
+
+.localinfo-left .local-market {
+    float: left;
+    width: 490px;
+    margin-bottom: 10px
+}
+
+.localinfo-left .local-market h3 {
+    width: 470px;
+    height: 39px;
+    color: #4d4d4d;
+    font-size: 14px;
+    line-height: 39px;
+    padding-left: 20px;
+    border-bottom: 1px solid #fab92c
+}
+
+.localinfo-left .local-market h3 span a {
+    color: #4d4d4d
+}
+
+.localinfo-left .local-market h3 .mores {
+    font-size: 14px;
+    margin-left: 350px;
+    _ margin-left: 335px;
+    color: #4d4d4d;
+    font-weight: 400
+}
+
+.localinfo-left .local-market h3 a:hover {
+    color: #f2a60c
+}
+
+.localinfo-right .local-market {
+    float: left;
+    width: 473px;
+    height: 286px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .9);
+    _background: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff');
+    padding: 0 16px 14px 0
+}
+
+.localinfo-right .local-market h3 {
+    width: 470px;
+    height: 39px;
+    line-height: 39px;
+    color: #4d4d4d;
+    font-size: 14px;
+    padding-left: 20px;
+    border-bottom: 1px solid #fab92c
+}
+
+.localinfo-right .local-market h3 span a {
+    color: #4d4d4d
+}
+
+.localinfo-right .local-market h3 .mores {
+    margin-left: 364px;
+    color: #4d4d4d;
+    font-size: 14px;
+    font-weight: 400
+}
+
+.localinfo-right .local-market h3 a:hover {
+    color: #f2a60c
+}
+
+.local-market .list1 {
+    width: 222px;
+    height: 230px;
+    float: left;
+    margin-right: 0;
+    margin-top: 14px
+}
+
+.local-market .list1:nth-child(2) {
+    float: left;
+    margin-right: 10px;
+    float: left;
+    margin-left: 18px
+}
+
+.list1 img {
+    display: block;
+    width: 222px;
+    height: 124px
+}
+
+.list1 .list1-top {
+    position: relative
+}
+
+.list1 .list1-top p {
+    width: 222px;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    _background: #000;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7F000000', endcolorstr='#7F000000');
+    _ filter: Alpha(opacity = 40);
+    text-align: center;
+    font-size: 16px
+}
+
+.list1 .list1-top p a {
+    color: #fff;
+    display: block;
+    width: 222px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.list1 .list1-top:hover p a, .list1 .list1-top p a:hover {
+    color: #f2a60c
+}
+
+.list1 ul {
+    margin-top: 15px;
+    padding-left: 6px
+}
+
+.list1 li {
+    width: 220px;
+    height: 32px;
+    line-height: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.list1 li a {
+    color: #4c4d4c;
+    font-size: 14px
+}
+
+.list1 li a span {
+    float: left;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #4d4d4d;
+    border-radius: 100%;
+    margin-top: 9px;
+    margin-right: 8px
+}
+
+.list1 li a:hover {
+    color: #f2a60c;
+    text-decoration: underline
+}
+
+.list1 li a:hover span {
+    background: #f2a60c
+}
+
+.cls {
+    clear: both
+}
+
+.localinfo-left .local-market .car-brand {
+    height: 55px;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6
+}
+
+.localinfo-left .local-market .car-brand span {
+    display: inline-block;
+    width: 14px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute
+}
+
+.localinfo-left .local-market .car-brand span.prev {
+    background: url(http://www.emao.com/static/home/widget/local-car/img/prev2_1417111.png) no-repeat;
+    left: 16px;
+    top: 15px
+}
+
+.localinfo-left .local-market .car-brand span.next {
+    background: url(http://www.emao.com/static/home/widget/local-car/img/next2_3e081ca.png) no-repeat;
+    right: 16px;
+    top: 15px
+}
+
+.localinfo-left .local-market .car-brand span.prev:hover {
+    background: url(http://www.emao.com/static/home/widget/local-car/img/prev1_87b4468.png) no-repeat;
+    left: 16px;
+    top: 15px
+}
+
+.localinfo-left .local-market .car-brand span.next:hover {
+    background: url(http://www.emao.com/static/home/widget/local-car/img/next1_acb8b44.png) no-repeat;
+    right: 16px;
+    top: 15px
+}
+
+.localinfo-left .local-market .logos {
+    width: 430px;
+    height: 56px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.localinfo-left .local-market .logos ul li {
+    width: 86px;
+    height: 56px;
+    float: left
+}
+
+.localinfo-left .local-market .logos ul li:hover {
+    background: url(http://www.emao.com/static/home/widget/local-car/img/logo_bg_fca9f51.png) no-repeat center;
+    border-bottom: 1px solid #fff
+}
+
+.localinfo-left .local-market .logos ul li a img {
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto
+}
+
+.address {
+    width: 490px;
+    height: 197px;
+    overflow: hidden;
+    _background: #fff
+}
+
+.address .logo-address {
+    width: 490px;
+    height: 197px;
+    overflow: hidden
+}
+
+.localinfo-left .local-market .logo-address dl {
+    width: 478px;
+    height: 88px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 0 3px 16px
+}
+
+.localinfo-left .local-market .logo-address dl dt {
+    width: 106px;
+    height: 80px;
+    float: left;
+    margin-right: 16px
+}
+
+.localinfo-left .local-market .logo-address dl dt img {
+    display: block;
+    width: 106px;
+    height: 80px
+}
+
+.localinfo-left .local-market .logo-address dl dd {
+    float: left;
+    width: 330px;
+    margin-top: 6px
+}
+
+.localinfo-left .local-market .logo-address dl dd p {
+    font-size: 14px
+}
+
+.localinfo-left .local-market .logo-address dl dd p.gs {
+    color: #4d4d4d
+}
+
+.localinfo-left .local-market .logo-address dl dd p.gs i {
+    display: inline-block;
+    width: 58px;
+    height: 16px;
+    float: left;
+    background: red;
+    margin-top: 3px;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+    margin-right: 5px;
+    font-size: 12px
+}
+
+.localinfo-left .local-market .logo-address dl dd p.gs a {
+    float: left;
+    display: inline-block;
+    width: 254px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.localinfo-left .local-market .logo-address dl dd p.gs a:hover {
+    color: #fbbf3d
+}
+
+.localinfo-left .local-market .logo-address dl dd p.tel {
+    color: red;
+    margin-top: 5px
+}
+
+.localinfo-left .local-market .logo-address dl dd p a {
+    color: #4c4d4c;
+    font-weight: 700
+}
+
+.localinfo-left .local-market .logo-address dl dd p.map {
+    font-size: 14px;
+    color: #4d4d4d;
+    height: 25px;
+    line-height: 28px;
+    width: 331px
+}
+
+.localinfo-left .local-market .logo-address dl dd p.map em {
+    display: inline-block;
+    width: 220px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left
+}
+
+.localinfo-left .local-market .logo-address dl dd p.map a {
+    color: #0e71c5;
+    float: right
+}
+
+.localinfo-left .pic-ad, .mr10 {
+    margin-top: 10px
+}
+
+.localinfo-right .pic-ad {
+    margin: 10px 0;
+    widht: 490px
+}
+
+.sale-brand .car-brand img {
+    display: block;
+    width: 238px;
+    height: 196px
+}
+
+.brand-right1 {
+    width: 490px;
+    height: 346px
+}
+
+.sale-brand {
+    transition: All .3s ease-in-out;
+    -webkit-transition: All .3s ease-in-out;
+    -moz-transition: All .3s ease-in-out;
+    -o-transition: All .3s ease-in-out
+}
+
+.sale-brand:hover {
+    transform: translate(0, -3px);
+    -webkit-transform: translate(0, -3px);
+    -moz-transform: translate(0, -3px);
+    -o-transform: translate(0, -3px);
+    -ms-transform: translate(0, -3px);
+    box-shadow: 0 5px 12px 6px #e8e8e8
+}
+
+.localinfo-left .sale-brand:first-child, .localinfo-right .sale-brand:first-child {
+    margin-right: 10px
+}
+
+.localcity-choose {
+    margin-top: 10px;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff
+}
+
+.localcity-name, .localcity-change, .go-dealer {
+    float: left;
+    margin-right: 25px
+}
+
+.localcity-change {
+    position: relative
+}
+
+.localcity-change i {
+    position: relative;
+    margin-left: 10px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.change-city {
+    display: block
+}
+
+.localcity-list {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    padding: 10px;
+    width: 280px;
+    background: #f5f5f5;
+    overflow: hidden;
+    z-index: 99999;
+    box-shadow: 1px 5px 15px #e8e8e8
+}
+
+.localcity-list li {
+    float: left;
+    width: 56px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden
+}
+
+.localcity-list li a {
+    font-size: 12px
+}
+
+.localcity-list a:hover, .go-dealer:hover, .localhotcity li a:hover, .localcity-name {
+    color: #fab92c
+}
+
+.localhotcity, .localhotcity-tt {
+    float: right
+}
+
+.localhotcity li {
+    float: left;
+    margin-left: 19px
+}
+
+.l-arrow {
+    position: relative;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: dashed;
+    border-width: 5px
+}
+
+.l-arrow-up {
+    border-bottom-color: #4d4d4d;
+    border-bottom-style: solid
+}
+
+.l-arrow-down {
+    top: 0;
+    border-top-color: #fab92c;
+    border-top-style: solid
+}
+
+.localcity-change i.l-arrow-up {
+    top: -2px
+}
+
+.localcity-change i.l-arrow-down {
+    top: 3px
+}
+
+.ad-bdcs-columns {
+    margin-top: 10px
+}
+
+.n-nav, .n-nav-content {
+    height: 67px;
+    line-height: 67px;
+    overflow: hidden
+}
+
+.n-nav-list dl, .n-nav-list dl dt, .n-nav-listLine {
+    float: left
+}
+
+.n-nav-listLink {
+    padding: 8px 0
+}
+
+.n-nav-list dl dt a {
+    display: block;
+    height: 100%;
+    line-height: 90px;
+    font-size: 16px;
+    padding: 0 20px;
+    position: relative
+}
+
+.n-nav-list dl dt a:hover {
+    color: #fec900
+}
+
+.n-nav-listLink dd {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    font-size: 14px;
+    text-align: center
+}
+
+.n-nav-listLink dd a {
+    padding: 1px 0
+}
+
+.n-nav-listLink dd a:hover {
+    color: #fec900;
+    border-bottom: 1px solid #fec900
+}
+
+.n-nav-listPic1 i {
+    height: 24px;
+    width: 24px;
+    background: url(http://www.emao.com/static/home/widget/nav/img/sprite_021f4a3.png) no-repeat -11px -239px;
+    top: 8px;
+    left: 25px
+}
+
+.n-nav-listPic2 i {
+    height: 28px;
+    width: 28px;
+    background: url(http://www.emao.com/static/home/widget/nav/img/sprite_021f4a3.png) no-repeat -7px -273px;
+    top: 6px;
+    left: 32px
+}
+
+.n-nav-listPic3 i {
+    height: 20px;
+    width: 28px;
+    background: url(http://www.emao.com/static/home/widget/nav/img/sprite_021f4a3.png) no-repeat -7px -311px;
+    top: 12px;
+    left: 24px
+}
+
+.n-nav-listPic4 i {
+    height: 26px;
+    width: 26px;
+    background: url(http://www.emao.com/static/home/widget/nav/img/sprite_021f4a3.png) no-repeat -9px -341px;
+    top: 7px;
+    left: 31px
+}
+
+.n-nav-listLine {
+    height: 34px;
+    border-right: 1px solid #e7e7e7;
+    margin: 15px 10px 0 20px
+}
+
+.n-nav-list i {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: absolute
+}
+
+.n-logo {
+    width: 111px;
+    margin-right: 15px;
+    float: left;
+    display: block;
+    height: 100%;
+    background: url(http://www.emao.com/static/home/widget/nav/img/n-logo_a49d293.png) no-repeat center center
+}
+
+.n-nav-position {
+    background: #fefefe;
+    width: 100%
+}
+
+.n-nav-positionCon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px #eaeaea
+}
+
+.toUp {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 300px;
+    _right: 300px;
+    bottom: 100px;
+    background: url(http://www.emao.com/static/home/widget/return-top/img/go-top_a25059c.png) no-repeat;
+    display: none;
+    cursor: pointer
+}
+
+.toUp:hover {
+    background: url(http://www.emao.com/static/home/widget/return-top/img/go-top2_fcc285c.png) no-repeat
+}
+
+.sale-box {
+    width: 990px;
+    clear: both;
+    display: none;
+    margin: 19px auto 0
+}
+
+.sale-box h3 {
+    margin: -1px 0 10px 0;
+    height: 28px
+}
+
+.sale-box h3 span.tit a {
+    display: inline-block;
+    width: 90px;
+    height: 21px;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    color: #4c4c4c
+}
+
+.sale-box h3 em {
+    display: inline-block;
+    width: 858px;
+    height: 1px;
+    line-height: 1px;
+    background: #fbbf3d;
+    margin: 8px 0 10px
+}
+
+.sale-box h3 a.more {
+    font-size: 14px;
+    color: #4c4c4c;
+    margin-top: 3px;
+    float: right
+}
+
+.sale-box h3 span a:hover {
+    color: #f2a60c
+}
+
+.sale-box .sale-wrap {
+    width: 990px;
+    height: 346px
+}
+
+.ad-position-left {
+    width: 490px;
+    float: left
+}
+
+.sale-box .mr {
+    margin-right: 10px
+}
+
+.ad-pic {
+    margin-right: 10px;
+    clear: both
+}
+
+.ad-pic a {
+    display: block
+}
+
+.ad-pic a img {
+    display: block;
+    width: 490px;
+    margin-bottom: 10px
+}
+
+.mb {
+    margin-bottom: 10px
+}
+
+.mt {
+    margin-top: 10px
+}
+
+.sale-brand .border-color {
+    width: 238px;
+    height: 255px
+}
+
+.sale-wrap .ad-position-left:nth-child(1) {
+    margin-right: 10px
+}
+
+.ad-position-left .sale-brand {
+    float: left;
+    width: 240px;
+    height: 346px;
+    cursor: pointer
+}
+
+.ad-position-left .sale-brand a {
+    display: block;
+    width: 240px
+}
+
+.ad-position-left .sale-brand:nth-of-type(1) {
+    margin-right: 10px
+}
+
+.ad-position-left .sale-brand .series {
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 30px
+}
+
+.sale-brand {
+    width: 240px;
+    height: 346px;
+    background: rgba(255, 255, 255, .9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#7Fffffff', endcolorstr='#7Fffffff')
+}
+
+.sale-brand .car-brand {
+    width: 240px;
+    height: 196px
+}
+
+.sale-brand .car-brand .logo {
+    width: 220px;
+    height: 74px;
+    margin: 10px 0 0 20px
+}
+
+.sale-brand .car-brand .logo span, .sale-brand .car-brand .logo span img {
+    display: block;
+    width: 48px;
+    height: 41px
+}
+
+.sale-brand .car-brand .car-img {
+    width: 180px;
+    height: 95px;
+    margin: 0 30px 27px
+}
+
+.sale-brand .car-brand .car-img img {
+    display: block;
+    width: 180px;
+    height: 95px
+}
+
+.sale-brand h4 {
+    font-size: 16px;
+    color: #4d4d4c;
+    margin-left: 30px;
+    height: 27px;
+    line-height: 35px
+}
+
+.sale-brand h4 span {
+    font-size: 14px;
+    color: #4d4d4c;
+    margin-left: 10px
+}
+
+.sale-brand p {
+    margin-left: 30px;
+    height: 31px;
+    line-height: 31px
+}
+
+.sale-brand p span {
+    margin-right: 20px;
+    color: #7f7f7f
+}
+
+.sale-brand ul {
+    padding-left: 30px;
+    width: 210px;
+    height: 90px;
+    border-top: 1px solid #e5e5e5
+}
+
+.sale-brand ul.changebg {
+    height: 90px;
+    _height: 74px
+}
+
+.sale-brand ul.changebg li {
+    color: #fff
+}
+
+.sale-brand ul li:first-child {
+    margin-top: 17px
+}
+
+.sale-brand ul li:nth-child(2) {
+    margin-top: 6px
+}
+
+.sale-brand ul li span {
+    text-decoration: line-through
+}
+
+.sale-brand ul li em {
+    font-size: 22px;
+    color: #f33
+}
+
+.box-sale .sale-brand:hover ul {
+    background: #fbbf3d
+}
+
+.box-sale .sale-brand:hover ul li {
+    color: #fff
+}
+
+.mr {
+    margin-right: 0
+}
+
+.ad-columns {
+    clear: both
+}
+
+.ad-columns img {
+    display: block;
+    width: 990px;
+    height: 90px
+}
+
+.sale-wrap {
+    width: 990px;
+    height: 346px
+}
+
+.ad-position-left .sale-brand:first-child {
+    margin-right: 10px
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>一猫运维平台</title>
+    <!-- meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- styles -->
+    <link href="/static/css/report.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/n-header.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+    <script src="/static/js/main.js" type="text/javascript"></script>
+    <script src="/static/js/bootstrap.min.js" type="application/javascript"></script>
+    {% block css %}{% endblock %}
+
+</head>
+<body>
+
+{% include "navigation.html" %}
+
+<div class="lg-main">
+    <!-- messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="row">
+                <div class="col-md-12">
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">
+                            <a class="close" title="Close" href="#" data-dismiss="alert">&times;</a>
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <!-- child template -->
+    {% block content %}{% endblock %}
+
+    <!-- errors -->
+    {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}</p>
+    {% endif %}
+</div>
+
+
+
+
+<div class="n-width100 n-back1 n-record">
+
+    <span>版权所有：北京一猫汽车科技有限公司 </span>
+    <span class="n-record-site">电话：010-62691688 　© 2016 www.emao.com </span>
+    <a href="http://www.miitbeian.gov.cn" target="_blank">京ICP证150082号 </a>
+    <a class="n-record-num" target="_blank"
+       href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020186">公网安备
+        11010802020186号<i></i></a>
+</div>
+
+
+<script type="text/javascript">
+    {% block js %}{% endblock %}
+</script>
+
+</body>
+</html>

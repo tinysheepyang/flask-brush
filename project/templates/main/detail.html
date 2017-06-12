@@ -1,0 +1,129 @@
+{% extends "_base.html" %}
+{% block css %}
+
+{% endblock %}
+
+{% block content %}
+
+    <!-- 搜索区域  -->
+
+    <link rel="stylesheet" href="/static/css/bootstrap-select.min.css">
+    <link href="/static/css/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+    <script src="/static/js/bootstrap-select.min.js"></script>
+    <script src="/static/js/jquery-ui-1.9.2.custom.js" type="application/javascript"></script>
+    <script src="/static/js/share.js" type="application/javascript"></script>
+
+<form method="get" class="search" action="/reports/detail">
+    <div class="row">
+        <div class=".col-md-6" style="padding-left: 15px;font-family: '微软雅黑'">
+            <label>请选择查询条件</label>
+        </div>
+{#        <div class="col-sm-3">#}
+{#            <select id="usertype" name="usertype" class="selectpicker show-tick form-control" multiple#}
+{#                    data-live-search="false">#}
+{#                <option value=0>一猫汽车网</option>#}
+{#                <option value=1>一猫汽车 选车买车</option>#}
+{#                <option value=2>一猫汽车 汽车电商</option>#}
+{#                <option value=3>一猫汽车 购车优惠</option>#}
+{#                <option value=4>一猫汽车 底价买车</option>#}
+{#                <option value=5>一猫汽车网 双11</option>#}
+{#                <option value=6>一猫汽车网 选车买车</option>#}
+{#                <option value=7>一猫汽车网 汽车电商</option>#}
+{#                <option value=8>一猫汽车网 购车优惠</option>#}
+{#                <option value=9>一猫汽车网 底价买车</option>#}
+{#                <option value=10>打通汽车电商任督二脉 一猫汽车网</option>#}
+{#            </select>#}
+{#        </div>#}
+        <div class="col-xs-12 col-sm-9" style="padding-left: 15px;font-family: '微软雅黑'">
+            <input id="keyword" name="keyword" size="20" type="text" value="" class="keyword" placeholder="请输入搜索词" />
+            <input id="ip" name="ip" size="20" type="text" value="" class="ip" placeholder="请输入IP" />
+            <select id="searchtype" name="searchtype" class="searchtype">
+                <option value="none">动作</option>
+                <option value=0>搜索</option>
+                <option value=1>点击</option>
+            </select>
+            <input id="searchtime" name="searchtime" type="text" class="ui-datepicker-time" readonly value=""/>
+            <div class="ui-datepicker-css">
+                <div class="ui-datepicker-quick">
+                    <p>快捷日期<a class="ui-close-date">X</a></p>
+                    <div>
+                        <input class="ui-date-quick-button" type="button" value="今天" alt="0" name=""/>
+                        <input class="ui-date-quick-button" type="button" value="昨天" alt="-1" name=""/>
+                        <input class="ui-date-quick-button" type="button" value="7天内" alt="-6" name=""/>
+                        <input class="ui-date-quick-button" type="button" value="14天内" alt="-13" name=""/>
+                        <input class="ui-date-quick-button" type="button" value="30天内" alt="-29" name=""/>
+                        <input class="ui-date-quick-button" type="button" value="60天内" alt="-59" name=""/>
+                    </div>
+                </div>
+                <div class="ui-datepicker-choose">
+                    <p>自选日期</p>
+                    <div class="ui-datepicker-date">
+                        <input name="startDate" id="startDate" class="startDate" readonly value="2014/12/20"
+                               type="text">
+                        -
+                        <input name="endDate" id="endDate" class="endDate" readonly value="2014/12/20"
+                               type="text"
+                               disabled
+                               onChange="datePickers()">
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-sm" type="submit">查询</button>
+            <button class="btn btn-primary btn-sm" id="resetBtn">重置</button>
+        </div>
+    </div>
+</form>
+    <!-- 表格显示 -->
+<div class="row">
+    <div class=".col-md-" style="margin-top:20px;">
+        <div class="panel panel-info">
+            <div class="panel-heading">刷量详细信息</div>
+        </div>
+    </div>
+    <div class="col-sm-12 table-responsive">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>ip</th>
+                <th>地址</th>
+                <th>搜索词</th>
+                <th>url</th>
+                <th>点击</th>
+                <th>错误信息</th>
+                <th>页面</th>
+                <th>排行</th>
+                <th>执行时间</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for user in users %}
+                <tr>
+                    <td>{{ user.id }}</td>
+                    <td>{{ user.ip }}</td>
+                    <td>{{ user.address }}</td>
+                    <td>{{ user.keyword }}</td>
+                    <td>{{ user.url }}</td>
+                    <td>{{ user.click }}</td>
+                    <td>{{ user.error }}</td>
+                    <td>{{ user.page }}</td>
+                    <td>{{ user.rank }}</td>
+                    <td>{{ user.created_at }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-5">
+        {{ pagination.links }}
+    </div>
+    <div class="col-sm-6">
+        {% if users %}
+            {{ pagination.info }}
+        {% endif %}
+    </div>
+
+</div>
+
+{% endblock %}
+

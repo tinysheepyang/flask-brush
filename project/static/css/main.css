@@ -1,0 +1,345 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: 0 0; }
+
+img {
+  vertical-align: middle;
+  border: 0; }
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer; }
+
+ul {
+  list-style: none; }
+
+.clearfix {
+  *zoom: 1; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  font-size: 0;
+  visibility: hidden;
+  clear: both; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.disinline {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top; }
+
+.fw {
+  font-weight: bold; }
+
+.over-hidden {
+  overflow: hidden; }
+
+.show {
+  display: block !important; }
+
+.hide {
+  display: none !important; }
+
+.visible {
+  visibility: visible !important; }
+
+.hidden {
+  visibility: hidden !important; }
+
+.login-wrap {
+  width: 1080px;
+  margin: 0 auto
+}
+
+.login-top .logo {
+  width: 93px;
+  height: 35px;
+  float: left;
+  margin-top: 10px
+}
+
+.login-top .back {
+  float: left;
+  line-height: 55px;
+  font-size: 14px;
+  margin-left: 35px;
+  cursor: pointer
+}
+
+.login-top .register {
+  float: right;
+  line-height: 55px;
+  font-size: 14px;
+  margin-right: 25px;
+  cursor: pointer
+}
+
+/* 主体样式 */
+.lg-main {
+  height: 680px;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-position: top center; }
+  .lg-main .lg-top-nav {
+    height: 55px;
+    background: rgba(255, 255, 255, 0.8); }
+  .lg-main .login-register-container {
+    width: 1080px;
+    position: relative;
+    height: 630px;
+    margin: 0 auto; }
+    .lg-main .login-register-container .login-register-model {
+      width: 350px;
+      position: absolute;
+      right: 100px;
+      top: 18px;
+      background: #fff;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;}
+
+    .lg-main .login-register-container .login-register-model .login-register-btns {
+        border-bottom: 1px solid #f0f0f0;
+        width: 100%;
+        height: 47px;
+        display: block; }
+        .lg-main .login-register-container .login-register-model .login-register-btns span {
+          float: left;
+          cursor: pointer;
+          font: normal 16px/46px "微软雅黑";
+          color: #999;
+          width: 96px;
+          height: 46px;
+          display: block;
+          text-align: center; }
+          .lg-main .login-register-container .login-register-model .login-register-btns span.lg-login-btn {
+            margin-left: 40px;
+            margin-right: 78px; }
+          .lg-main .login-register-container .login-register-model .login-register-btns span.lg-register-btn {
+            margin-right: 40px; }
+          .lg-main .login-register-container .login-register-model .login-register-btns span.active {
+            color: #333;
+            font-weight: bold;
+            border-bottom: 2px solid #fab92c; }
+      .lg-main .login-register-container .login-register-model .login-register-form {
+        padding: 20px 25px 16px; }
+        .lg-main .login-register-container .login-register-model .login-register-form input[type="text"], .lg-main .login-register-container .login-register-model .login-register-form input[type="password"] {
+          border: 1px solid #f0f0f0;
+          padding: 0 10px;
+          width: 300px;
+          height: 38px;
+          display: block;
+          font: normal 12px/38px "微软雅黑";
+          color: #b5b6b6;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          -moz-transition: all 0.5s ease;
+          -webkit-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease; }
+          .lg-main .login-register-container .login-register-model .login-register-form input[type="text"].zhpass, .lg-main .login-register-container .login-register-model .login-register-form input[type="password"].zhpass {
+            display: none; }
+        .lg-main .login-register-container .login-register-model .login-register-form .login-form {
+          display: none; }
+          .lg-main .login-register-container .login-register-model .login-register-form .login-form.active {
+            display: block; }
+        .lg-main .login-register-container .login-register-model .login-register-form .register-form {
+          display: none; }
+          .lg-main .login-register-container .login-register-model .login-register-form .register-form.active {
+            display: block; }
+        .lg-main .login-register-container .login-register-model .login-register-form .user-list {
+          position: relative;
+          height: 68px; }
+
+          .lg-main .login-register-container .login-register-model .login-register-form .user-list .hint {
+            float: left;
+            width: 300px;
+            height: 30px;
+            display: none;
+            font: normal 12px/30px "微软雅黑";
+            color: #f64d59; }
+        .lg-main .login-register-container .login-register-model .login-register-form .validate-box {
+          margin-bottom: 30px;
+          width: 300px;
+          height: 34px;
+          display: block;
+          font: normal 12px/34px "微软雅黑";
+          color: #8f8f8f; }
+        .lg-main .login-register-container .login-register-model .login-register-form .remember-pass {
+          overflow: hidden;
+          height: 30px;
+          font: normal 12px/13px "微软雅黑";
+          color: #787878;
+          -moz-transition: all 0.5s ease;
+          -webkit-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease; }
+          .lg-main .login-register-container .login-register-model .login-register-form .remember-pass .remember-msg-container {
+            overflow: hidden; }
+          .lg-main .login-register-container .login-register-model .login-register-form .remember-pass .dian {
+            display: inline-block;
+            cursor: pointer;
+            vertical-align: middle;
+            margin-right: 5px;
+            float: left; }
+          .lg-main .login-register-container .login-register-model .login-register-form .remember-pass span {
+            float: left; }
+          .lg-main .login-register-container .login-register-model .login-register-form .remember-pass a {
+            float: right; }
+          .lg-main .login-register-container .login-register-model .login-register-form .remember-pass label:hover {
+            color: #fab92c;
+            line-height: 12px;
+            -moz-transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease; }
+          .lg-main .login-register-container .login-register-model .login-register-form .remember-pass .hint {
+            display: none;
+            color: #f64d59;
+            position:static;
+            line-height:1;
+            margin-top: 4px; }
+            .lg-main .login-register-container .login-register-model .login-register-form .remember-pass .hint.active {
+              display: block; }
+        .lg-main .login-register-container .login-register-model .login-register-form .login-btn {
+          padding: 16px 0; }
+          .lg-main .login-register-container .login-register-model .login-register-form .login-btn .login-button {
+            background: #999;
+            cursor: default;
+            width: 154px;
+            height: 38px;
+            display: block;
+            margin: 0 auto;
+            font: normal 16px/38px "微软雅黑";
+            color: #fff;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px; }
+            .lg-main .login-register-container .login-register-model .login-register-form .login-btn .login-button.active {
+              background: #fab92c;
+              cursor: pointer; }
+        .lg-main .login-register-container .login-register-model .login-register-form .reg-btn {
+          padding-top: 2px; }
+        .lg-main .login-register-container .login-register-model .login-register-form .others-login .others-btns {
+          margin-top: 16px;
+          text-align: center; }
+          .lg-main .login-register-container .login-register-model .login-register-form .others-login .others-btns a {
+            margin: 0 12px;
+            width: 37px;
+            height: 37px;
+            display: inline-block; }
+        .lg-main .login-register-container .login-register-model .login-register-form .yz-hq .yz {
+          width: 170px;
+          float: left;
+          margin-right: 10px; }
+
+        .lg-main .login-register-container .login-register-model .login-register-form .yz-hq .hq {
+          background: #fab92c;
+          cursor: pointer;
+          font: normal 14px/38px "微软雅黑";
+          color: #fff;
+          width: 120px;
+          height: 38px;
+          display: block;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px; }
+        .lg-main .login-register-container .login-register-model .login-register-form .yz-hq .cur {
+          background: #999;
+          cursor: pointer;
+          font: normal 14px/38px "微软雅黑";
+          color: #fff;
+          width: 120px;
+          height: 38px;
+          display: block;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;}
+          .lg-main .login-register-container .login-register-model .login-register-form .yz-hq .hq.active {
+            background: #999;
+            cursor: default; }
+
+.lg-top-nav{
+  position:relative;
+  z-index: 1;
+}
+.login-register-model{
+  z-index:1;
+}
+.bgImage{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background-repeat:no-repeat;
+  background-position:top center;
+  z-index: 0;
+}
+.lg-main{position:relative;}
+/*# sourceMappingURL=login.css.map */
+
+.login-mod1 .step1 h3 a em,
+.hint em,
+.login-mod1 .register .phone-input .inp1,
+.inp1{ border:1px solid #e6e6e6; width:283px; padding-top: 10px;padding-bottom: 10px;padding-left:15px;}
+.login-mod1 .register .phone-input .inp1:focus,.inp1:focus{border-color:#fab92c;}
+.user-list,.remember-pass{position:relative;height:70px;clear:both;}
+.login-mod1 .register .phone-input .hint ,
+.hint{ width:300px; height:30px;line-height:30px;clear:both;position:absolute;left:0;top: 38px;color:#f64d59;font-size:12px;}
+.login-mod1 .register .phone-input .hint em,
+.hint em{display:inline-block;width:15px; height:15px;margin-right:7px; margin-top:8px; float:left;background-position:-30px 0;}
+.login-mod1 .register .phone-input .hint span,
+.hint span{ float:left;}
+.remember-pass .hint {top: 22px;}
+.remember-pass{font-size:12px;height:38px;}
+.remember-pass .dian{ display:inline-block; cursor:pointer;vertical-align: middle;margin-right:5px;}
+.login-mod1 .register .phone-input .login-btn,
+.login-btn{width:154px; height:37px; margin:10px auto 0 auto;}
+.login-mod1 .register .phone-input .login-btn .login-button,
+.login-button{ width:154px; height:37px;color:#fff; font-size:18px; text-align:center; line-height:37px; margin: 0 auto; cursor:pointer;background:#fab92c;}
+.dsf{width:300px; height:13px; margin-top:20px;background-position: 0 -39px}
+.third a{ display:block; width:59px; height:59px; margin-top:20px;}
+.third a.wx{ margin-right:40px; margin-left:23px;background-position:0 -65px;}
+.third a.qq{margin-right:40px;background-position:-68px -65px;}
+.third a.xl{background-position:-142px -65px;}
+.third a.wx:hover{background-position:0 -133px;}
+.third a.qq:hover{background-position:-68px -133px;}
+.third a.xl:hover{background-position:-142px -132px;}
+.imgyz{ height:40px;}
+.imgyz .inp2{ border:1px solid #e6e6e6; width:125px;padding-top: 10px; padding-bottom: 10px;float:left;padding-left:15px;}
+.imgyz span{ display:inline-block; margin:7px 15px 0 15px; float:left}
+.imgyz a{ display:block; vertical-align:middle; float:left; margin-top:10px;}
+
+.login-layer-d{height:629px;}
+.login-layer{height:629px;}
+.login-layer .login-mask{position:fixed;width:100%;height: 100%;left:0;top:0;background: rgba(0,0,0,0.5);}
+.login-layer .layer-main{width:306px;height:273px;background-color:#f3f2f1;position:absolute;left:50%;top:50%;margin-left:-175px;margin-top:-158px;padding:22px;}
+.login-layer .layer-main h3{font-size:18px;line-height:25px;}
+.login-layer .layer-main h3 span{display:inline-block;width:17px;height:17px;background-position:-63px 0;float:right;cursor:pointer;}
+.login-layer .layer-main h3 span:hover{background-position:-87px 0;}
+.login-layer .layer-main .layer-tit{font-size:12px;color:#f64d59;margin:20px 0 15px 0;}
+.user-list .yz-hq{height:40px;overflow:hidden;}
+.user-list .yz{width:145px;float:left;}
+.user-list .hqcode{width:120px;height:38px;background:#fab92c;font-size:16px;color: #fff;text-align:center;color:#fff;line-height:38px;float:left;margin-left:15px;cursor:pointer;}
+.user-list .hqcode.cur{background-color:#dbdbdb;}
+
+.remember-pass p a{float:right;}
+.remember-pass p span a{float:none !important;}
